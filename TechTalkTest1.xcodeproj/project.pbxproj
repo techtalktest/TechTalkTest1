@@ -260,6 +260,8 @@
 		50593A0D17336B2D0044A6FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TechTalkTest1/TechTalkTest1-Prefix.pch";
 				INFOPLIST_FILE = "TechTalkTest1/TechTalkTest1-Info.plist";
@@ -271,6 +273,8 @@
 		50593A0E17336B2D0044A6FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TechTalkTest1/TechTalkTest1-Prefix.pch";
 				INFOPLIST_FILE = "TechTalkTest1/TechTalkTest1-Info.plist";
