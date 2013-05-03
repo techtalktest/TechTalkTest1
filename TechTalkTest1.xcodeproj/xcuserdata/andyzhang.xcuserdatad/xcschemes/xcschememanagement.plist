@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TeckTalkLogicTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>505939E817336B2D0044A6FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>50593A131733A0310044A6FE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

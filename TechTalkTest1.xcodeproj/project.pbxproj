@@ -18,6 +18,11 @@
 		50593A0317336B2D0044A6FE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50593A0217336B2D0044A6FE /* Default-568h@2x.png */; };
 		50593A0617336B2D0044A6FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50593A0517336B2D0044A6FE /* ViewController.m */; };
 		50593A0917336B2D0044A6FE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50593A0717336B2D0044A6FE /* ViewController.xib */; };
+		50593A171733A0320044A6FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505939EC17336B2D0044A6FE /* UIKit.framework */; };
+		50593A181733A0320044A6FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505939EE17336B2D0044A6FE /* Foundation.framework */; };
+		50593A1E1733A0320044A6FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50593A1C1733A0320044A6FE /* InfoPlist.strings */; };
+		50593A211733A0320044A6FE /* TeckTalkLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50593A201733A0320044A6FE /* TeckTalkLogicTests.m */; };
+		50593A271733A2390044A6FE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50593A261733A2390044A6FE /* SenTestingKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,14 @@
 		50593A0417336B2D0044A6FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		50593A0517336B2D0044A6FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		50593A0817336B2D0044A6FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		50593A141733A0310044A6FE /* TeckTalkLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeckTalkLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50593A151733A0320044A6FE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		50593A1B1733A0320044A6FE /* TeckTalkLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TeckTalkLogicTests-Info.plist"; sourceTree = "<group>"; };
+		50593A1D1733A0320044A6FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50593A1F1733A0320044A6FE /* TeckTalkLogicTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeckTalkLogicTests.h; sourceTree = "<group>"; };
+		50593A201733A0320044A6FE /* TeckTalkLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeckTalkLogicTests.m; sourceTree = "<group>"; };
+		50593A221733A0320044A6FE /* TeckTalkLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeckTalkLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		50593A261733A2390044A6FE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +63,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50593A101733A0310044A6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50593A271733A2390044A6FE /* SenTestingKit.framework in Frameworks */,
+				50593A171733A0320044A6FE /* UIKit.framework in Frameworks */,
+				50593A181733A0320044A6FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -57,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				505939F217336B2D0044A6FE /* TechTalkTest1 */,
+				50593A191733A0320044A6FE /* TeckTalkLogicTests */,
 				505939EB17336B2D0044A6FE /* Frameworks */,
 				505939EA17336B2D0044A6FE /* Products */,
 			);
@@ -66,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				505939E917336B2D0044A6FE /* TechTalkTest1.app */,
+				50593A141733A0310044A6FE /* TeckTalkLogicTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +98,11 @@
 		505939EB17336B2D0044A6FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				50593A261733A2390044A6FE /* SenTestingKit.framework */,
 				505939EC17336B2D0044A6FE /* UIKit.framework */,
 				505939EE17336B2D0044A6FE /* Foundation.framework */,
 				505939F017336B2D0044A6FE /* CoreGraphics.framework */,
+				50593A151733A0320044A6FE /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,6 +134,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		50593A191733A0320044A6FE /* TeckTalkLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				50593A1F1733A0320044A6FE /* TeckTalkLogicTests.h */,
+				50593A201733A0320044A6FE /* TeckTalkLogicTests.m */,
+				50593A1A1733A0320044A6FE /* Supporting Files */,
+			);
+			path = TeckTalkLogicTests;
+			sourceTree = "<group>";
+		};
+		50593A1A1733A0320044A6FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50593A1B1733A0320044A6FE /* TeckTalkLogicTests-Info.plist */,
+				50593A1C1733A0320044A6FE /* InfoPlist.strings */,
+				50593A221733A0320044A6FE /* TeckTalkLogicTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,6 +173,24 @@
 			productName = TechTalkTest1;
 			productReference = 505939E917336B2D0044A6FE /* TechTalkTest1.app */;
 			productType = "com.apple.product-type.application";
+		};
+		50593A131733A0310044A6FE /* TeckTalkLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50593A231733A0320044A6FE /* Build configuration list for PBXNativeTarget "TeckTalkLogicTests" */;
+			buildPhases = (
+				50593A0F1733A0310044A6FE /* Sources */,
+				50593A101733A0310044A6FE /* Frameworks */,
+				50593A111733A0310044A6FE /* Resources */,
+				50593A121733A0310044A6FE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeckTalkLogicTests;
+			productName = TeckTalkLogicTests;
+			productReference = 50593A141733A0310044A6FE /* TeckTalkLogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -149,6 +214,7 @@
 			projectRoot = "";
 			targets = (
 				505939E817336B2D0044A6FE /* TechTalkTest1 */,
+				50593A131733A0310044A6FE /* TeckTalkLogicTests */,
 			);
 		};
 /* End PBXProject section */
@@ -166,7 +232,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		50593A111733A0310044A6FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50593A1E1733A0320044A6FE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50593A121733A0310044A6FE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		505939E517336B2D0044A6FE /* Sources */ = {
@@ -176,6 +266,14 @@
 				505939F917336B2D0044A6FE /* main.m in Sources */,
 				505939FD17336B2D0044A6FE /* AppDelegate.m in Sources */,
 				50593A0617336B2D0044A6FE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50593A0F1733A0310044A6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50593A211733A0320044A6FE /* TeckTalkLogicTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +294,14 @@
 				50593A0817336B2D0044A6FE /* en */,
 			);
 			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		50593A1C1733A0320044A6FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50593A1D1733A0320044A6FE /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -287,6 +393,36 @@
 			};
 			name = Release;
 		};
+		50593A241733A0320044A6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeckTalkLogicTests/TeckTalkLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "TeckTalkLogicTests/TeckTalkLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		50593A251733A0320044A6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeckTalkLogicTests/TeckTalkLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "TeckTalkLogicTests/TeckTalkLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -304,6 +440,14 @@
 			buildConfigurations = (
 				50593A0D17336B2D0044A6FE /* Debug */,
 				50593A0E17336B2D0044A6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50593A231733A0320044A6FE /* Build configuration list for PBXNativeTarget "TeckTalkLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50593A241733A0320044A6FE /* Debug */,
+				50593A251733A0320044A6FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
