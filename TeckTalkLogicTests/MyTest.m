@@ -28,6 +28,6 @@
 - (void)testSimpleEqual
 {
     
-    STAssertEquals(2, 2, @"should be same!");
+    STAssertEquals(1, 2, @"should be same!");
 }
 @end
