@@ -1,14 +1,15 @@
 //
-//  TeckTalkLogicTests.m
-//  TeckTalkLogicTests
+//  MyTest.m
+//  TechTalkTest1
 //
 //  Created by andyzhang on 13-5-3.
 //  Copyright (c) 2013年 andyzhang. All rights reserved.
 //
 
-#import "TeckTalkLogicTests.h"
+#import "MyTest.h"
 
-@implementation TeckTalkLogicTests
+@implementation MyTest
+
 
 - (void)setUp
 {
@@ -24,9 +25,9 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testSimpleEqual
 {
-    //STFail(@"Unit tests are not implemented yet in TeckTalkLogicTests");
+    
+    STAssertEquals(1, 1, @"should be same!");
 }
-
 @end

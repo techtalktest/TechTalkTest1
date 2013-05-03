@@ -23,6 +23,7 @@
 		50593A1E1733A0320044A6FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50593A1C1733A0320044A6FE /* InfoPlist.strings */; };
 		50593A211733A0320044A6FE /* TeckTalkLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50593A201733A0320044A6FE /* TeckTalkLogicTests.m */; };
 		50593A271733A2390044A6FE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50593A261733A2390044A6FE /* SenTestingKit.framework */; };
+		50593A2A1733A7B50044A6FE /* MyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 50593A291733A7B50044A6FE /* MyTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,8 @@
 		50593A201733A0320044A6FE /* TeckTalkLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeckTalkLogicTests.m; sourceTree = "<group>"; };
 		50593A221733A0320044A6FE /* TeckTalkLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeckTalkLogicTests-Prefix.pch"; sourceTree = "<group>"; };
 		50593A261733A2390044A6FE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		50593A281733A7B50044A6FE /* MyTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTest.h; sourceTree = "<group>"; };
+		50593A291733A7B50044A6FE /* MyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,8 @@
 			children = (
 				50593A1F1733A0320044A6FE /* TeckTalkLogicTests.h */,
 				50593A201733A0320044A6FE /* TeckTalkLogicTests.m */,
+				50593A281733A7B50044A6FE /* MyTest.h */,
+				50593A291733A7B50044A6FE /* MyTest.m */,
 				50593A1A1733A0320044A6FE /* Supporting Files */,
 			);
 			path = TeckTalkLogicTests;
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50593A211733A0320044A6FE /* TeckTalkLogicTests.m in Sources */,
+				50593A2A1733A7B50044A6FE /* MyTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
